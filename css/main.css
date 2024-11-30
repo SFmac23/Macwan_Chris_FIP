@@ -104,6 +104,12 @@ Couples Resort Responsive Build
        /* add */
     cursor: pointer;
  }
+
+ .book-now:hover {
+   background-color: #0056b3;
+   transform: scale(1.1); /* Slight bounce */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
  
  .book-now:hover {
     background-color: rgb(196, 28, 28);
@@ -579,3 +585,12 @@ header, footer {
                      padding: 15px; 
                      text-align: left;
     }
+
+    .completed::after {
+      content: "✔"; /* Unicode for a checkmark */
+      color: green;
+      font-size: 1.2rem;
+      margin-left: 10px;
+  }
+  
+  
