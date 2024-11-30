@@ -409,6 +409,8 @@ Couples Resort Responsive Build
    width: 30px;
    height: 30px;
    display: block;
+   top: 10px;
+   left: 10px;
  }
  
  /* Hover effect for the button */
@@ -437,7 +439,7 @@ Couples Resort Responsive Build
    color: #c62828; /* Red color for the icons */
    font-size: 40px;
    margin-right: 10px;
-   vertical-align: middle;
+   vertical-align: left;
  }
  
  /* Contact numbers and addresses */
@@ -490,3 +492,47 @@ Couples Resort Responsive Build
 
 
 
+.image-container { 
+   display: flex; 
+   flex-direction: column; 
+   
+} 
+
+.image-container img {
+    width: 412px; 
+    margin-bottom: 2px; /* Adjust this value to set the desired space between images */
+    box-sizing: border-box;
+}
+body { 
+   margin: 0; 
+   padding: 0; 
+   width: 100%; 
+   max-width: 412px; 
+   margin: auto; 
+   box-sizing: border-box; 
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   max-width: 412px;
+   margin: auto;
+   box-sizing: border-box;
+   
+}
+
+header, footer {
+   text-align: left;
+   padding: 10px;
+   background-color: #f1f1f1;
+}
+
+.maroon-box {
+   background-color: maroon;
+   color: white;
+   padding: 20px;
+   margin: 10px 0;
+   border-radius: 5px;
+   text-align: left;
+}
