@@ -536,3 +536,46 @@ header, footer {
    border-radius: 5px;
    text-align: left;
 }
+
+.container {
+    width: 412px; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+    position: relative; } 
+   
+    .image-section { 
+      position: relative; 
+      width: 100%; 
+      padding-top: 75%; /* Ratio 4:3 */ 
+      overflow: hidden; } 
+      
+      .image-section img { 
+         position: absolute; 
+         top: 0; left: 0; 
+         width: 100%; 
+         height: 100%; 
+         object-fit: cover; } 
+         
+         .download-button { 
+            position: absolute; 
+            top: 10px; 
+            right: 10px;
+             width: 40px; 
+             height: 40px;
+              border-radius: 50%; 
+              background-color: rgba(255, 255, 255, 0.8); 
+              border: none; display: flex; justify-content: center; 
+              align-items: center; 
+              cursor: pointer;
+               box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); } 
+               
+               .download-button i { 
+                  color: #333; 
+                  font-size: 18px; } 
+                  
+                  .text-section { 
+                     padding: 15px; 
+                     text-align: left;
+    }
