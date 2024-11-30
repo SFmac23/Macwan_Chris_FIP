@@ -592,5 +592,18 @@ header, footer {
       font-size: 1.2rem;
       margin-left: 10px;
   }
+
+  .burger-con li a::after {
+   content: "→"; /* Unicode for arrow */
+   color: #c4a484;
+   margin-left: 5px;
+   font-size: 0.9rem;
+   transition: transform 0.3s;
+}
+
+.burger-con li a:hover::after {
+   transform: translateX(5px); /* Creates a sliding effect */
+}
+
   
   
