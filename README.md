@@ -33,23 +33,21 @@ HTML5: Structured and semantic markup.
 CSS3:
 Advanced styling with animations and transitions.
 Use of pseudo-selectors (::after) for added visuals.
-JavaScript:
-Handles interactivity for the FAQ section and the hamburger menu.
-Workflow Practices
+
 This project followed standard workflow practices:
 
 Branching:
 
-Each feature was developed in its own branch (e.g., faq-feature, animation-submit-button).
+Each feature was developed in its own branch 
 Commits:
 
-Regular, descriptive commits were made to track progress (e.g., Added FAQ expand/collapse functionality).
+Regular, descriptive commits were made to track progress 
 Pull Requests:
 
 Each branch was merged into the main branch through pull requests after testing and review.
 Merging:
 
-Merged tested branches into the main branch (main) for final integration.
+Merged tested branches into the main branch for final integration.
 Pages
 Rooms Page:
 
@@ -62,19 +60,7 @@ Packages Page (All-Inclusive):
 
 Comprehensive details about the all-inclusive package.
 Highlights inclusions and benefits with visually appealing design elements.
-How to Use
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-repo/couples-resort.git  
-Navigate to the project directory:
-bash
-Copy code
-cd couples-resort  
-Open any HTML file in your browser (e.g., index.html) to view the site.
-File Structure
-graphql
-Copy code
+
 couples-resort/  
 ├── index.html            # Homepage (FAQ section, main features)  
 ├── rooms.html            # Rooms Page  
@@ -86,6 +72,8 @@ couples-resort/
 │   ├── script.js         # JavaScript for interactivity  
 ├── images/               # Folder for images used in the project  
 ├── README.md             # Project documentation  
+
+
 Author
 Chris Macwan
 Interactive Media Design - Fanshawe College
