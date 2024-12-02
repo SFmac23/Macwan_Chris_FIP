@@ -19,476 +19,480 @@ Couples Resort Responsive Build
  /* 1. ---General Styles--- */
 
  #mobile-outline {
-    outline: 20px solid #333;
-    max-width: 412px;
-    margin: 20px auto 20px auto;
-    border-radius: 10px;
- } 
- 
- body {
-    color: #626262;
-    font-family: 'Sanchez', 'Times New Roman', serif;
- }
- 
- a {
-    text-decoration: none;
-    /* add */
- }
+   outline: 20px solid #333;
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
+
+body {
+   color: #626262;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+a {
+   text-decoration: none;
+   /* add */
+}
 
 
- 
- input, textarea {
-    display: block;
-    margin: 0;
-    padding: 0;
- }
- 
- .cr-red {
-    color: #9a2018;
- }
- 
- /* 2. ---Main Nav--- */
- 
- 
-    /* add */
- 
- 
- /*   ~ sibling selector   */
- 
- 
- 
-    /* add */
- 
- 
- #main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
- 
- #main-nav ul li a {
-    display: block;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    color: #626262;
- }
- 
- #main-nav ul li {
-    border-bottom: 1px solid #efefef;
- }
- 
-    /* add */
- 
- 
- #logo {
-    margin-bottom: 20px;
-    max-width: 382px;
- }
- 
- /* 3. ---Main Hero Image--- */
- 
- #hero {
-    background: url(../images/hero-main.jpg) no-repeat;
-    height: 200px;
- }
- 
- .book-now {
-    background-color: #9a2018;
-    color: #fff;
-    font-size: 16px;
-    transition: background-color 500ms linear;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-style: italic;
-       /* add */
-    cursor: pointer;
- }
 
- .book-now:hover {
-   background-color: #0056b3;
-   transform: scale(1.1); /* Slight bounce */
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
- }
- 
- .book-now:hover {
-    background-color: rgb(196, 28, 28);
- }
- 
- #book-now-hero {
-    height: 67px;
- }
- 
- #hero-heading-box {
-    align-self: end;
- }
- 
- .hero-img-h2, .hero-img-h3 {
-    background: #fff;
-    padding: 10px 15px;
-    font-size: 14px;
- }
- 
- .hero-img-h2 span,  .hero-img-h3 span {
-    color: #9a2018;
-    font-size: 12px;
- }
- 
- .line-separator {
-    margin-top: 20px;
-    border-top: solid 3px #CF6666;
-    padding-top: 20px;
- }
- 
- #hero-summary p {
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 20px;
- }
- 
- /* 4. ---Main Hero Image Contact--- */
- 
- .fas {
-    font-size: 42px;
-    color: #9a2018;
-    margin: 0 auto;
-    float: left;
- }
- 
- .fa-mobile-alt {
-    margin-right: 10px;
-    margin-left: 3px;
-    margin-bottom: 20px;
- }
- 
- .fa-map-marker-alt {
-    margin-right: 10px;
- }
- 
- #contact {
-    font-size: 11px;
-    background-color: #efefef;
-    padding-top: 30px;
-    padding-bottom: 30px;
- }
- 
- /* 5. ---Why Choose Us--- */
- 
-  #why-choose-us-nav {
-    padding-top: 20px;
- }
- 
- #why-choose-us-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
- #why-choose-us-nav ul li {
-    margin-bottom: 15px;
- }
- 
- #why-choose-us-nav ul li a {
-   color: inherit;
-   padding: 5px;
- }
- 
- /* add */
- 
-  
- 
- #why-choose-us-hero-con {
-   background: url(../images/why-choose-us-hero.jpg) no-repeat;
-   height: 195px;
- }
- 
- #why-choose-us-heading-box {
-    align-self: end;
- }
- 
- .why-choose-us-image {
-    float: left;
-    margin-right: 20px;
-    margin-top: 30px;
- }
- 
- .why-choose-us-image-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
- }
- 
- .why-choose-us-image-con p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    line-height: 20px;
- }
- 
- .why-choose-us-image-con a {
-    color: #707070;
-    font-size: 12px;
- }
- 
-  #why-choose-us-bottom-nav {
-    background-color: #CF6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
- }
- 
- #why-choose-us-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 20px;
-    padding: 0;
- }
- 
- #why-choose-us-bottom-nav ol li {
-    display: inline;
- }
- 
- #why-choose-us-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
- }
- 
- /* 6. ---About & FAQ--- */
- 
- #about-hero-con {
-    background: url(../images/about-us-hero.jpg) no-repeat;
-    height: 195px;
- }
- 
- #about-hero-heading-box {
-    align-self: end;
- }
- 
- #about-us-text {
-    padding-bottom: 60px;
- }
- 
- #about-us-text p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 22px;
- }
- 
- #about-us-text-column2 {
-    font-style: italic;
- }
- 
- #faq-con {
-    background-color: #f4f4f4;
-    padding-top: 35px;
-    padding-bottom: 30px;
- }
- 
- #faq-con h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
- }
- 
- #faq-con h2 span {
-    color: #9a2018;
-    font-size: 16px;
- }
- 
- .faq-items {
-    margin-bottom: 16px;
- }
- 
- .faq-items h3 {
-    background: #e8e7e7;
-    padding: 16px;
-    font-size: 16px;
- }
- 
- .faq-items ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
- }
- 
- .faq-items li {
-    padding: 8px 0;
-    border-bottom: 1px solid #9a2018;
- }   
- 
- .faq-items a {
-    color: inherit;
-    font-size: 13px;
- }
- 
- #faq-text-con {
-    margin-top: 20px;
-    margin-bottom: 20px;
- }
- 
- /* 7. ---Contact--- */
- 
- #contact-hero-con {
-    background: url(../images/contact-hero.jpg);
-    height: 195px;
- }
- 
- #contact-hero-heading-box {
-    align-self: end;
- }
- 
- #contact-hero-text {
-    margin-top: 15px;
-    margin-bottom: 25px;
- }
- 
- #contact-hero-address p {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 22px;
- }
- 
- #contact-hero-address {
-    margin-bottom: 30px;
- }
- 
- #contact-hero-address h3 {
-    margin-bottom: 25px;
- }
- 
- 
- /* add */
- 
- /* 8. ---Footer--- */
- 
- #footer-hero {
-    background-image: url(../images/footer.jpg);
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
- }
- 
- #footer-hero h3 {
-    margin-top: 30px;
-    font-size: 28px;
-    margin-bottom: 16px;
- }
- 
- #footer-privacy .line-seperator {
-    margin-top: 0px;
- }
- 
- #footer-contact-info h3 {
-    font-size: 23px;
- }
- 
- #footer-contact-info p {
-    margin-bottom: 20px;
-    line-height: 18px;
-    font-size: 11px;
- }
-
- /* hide the menu by default */
- #burger-con {
-   display: none;
- }
- 
- /* show the menu when the checkbox is checked */
- #hamburger:checked + label + #burger-con {
-   display: block; 
- } 
-
- /* Hide the actual checkbox */
-#hamburger {
-   display: none;
- }
- 
- /* Style the hamburger button (label) */
- label[for="hamburger"] {
-   display: inline-block;
-   cursor: pointer;
-   padding: 10px;
-   background-color: white;
-   border-radius: 5px;
-   transition: background-color 0.3s ease;
- }
- 
- label[for="hamburger"] img {
-   width: 30px;
-   height: 30px;
+input, textarea {
    display: block;
-   top: 10px;
-   left: 10px;
- }
- 
- /* Hover effect for the button */
- label[for="hamburger"]:hover {
-   background-color: white
- }
- 
- /* General container styling for the grid */
-#contact {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 20px;
-   padding: 20px;
-   background-color: #fff; /* Adjust background color if needed */
-   text-align: left;
- }
- 
- /* Hidden class for screen readers (if necessary) */
- .hidden {
-   position: absolute;
-   left: -9999px;
- }
- 
- /* Icon styling */
- i {
-   color: #c62828; /* Red color for the icons */
-   font-size: 40px;
-   margin-right: 10px;
-   vertical-align: left;
- }
- 
- /* Contact numbers and addresses */
- #hero-numbers,
- #hero-address {
-   
-   
-   font-size: 14px;
    margin: 0;
-   line-height: 1.8;
- }
- 
- /* Aligning and styling sections */
- #hero-numbers {
-   display: flex;
-   align-items: center;
- }
- 
- #hero-address {
-   display: flex;
-   align-items: center;
- }
- 
- /* Adding hover effect for better interactivity */
- i:hover {
-   color: #ff0000;
- }
+   padding: 0;
+}
 
- .faq-section {
-   position: relative;
-   font-size: 1.25rem; /* Adjust font size if necessary */
-   font-weight: bold; /* Make the font bold */
-   padding-left: 2rem; /* Add padding to make space for the arrow */
+.cr-red {
+   color: #9a2018;
+}
+
+/* 2. ---Main Nav--- */
+
+
+   /* add */
+
+
+/*   ~ sibling selector   */
+
+
+
+   /* add */
+
+
+#main-nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   
+}
+
+#main-nav ul li a {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   color: #626262;
+   
+}
+
+#main-nav ul li {
+   border-bottom: 1px solid #efefef;
+}
+
+   /* add */
+
+
+#logo {
+   margin-bottom: 20px;
+   max-width: 382px;
+}
+
+/* 3. ---Main Hero Image--- */
+
+#hero {
+   background: url(../images/hero-main.jpg) no-repeat;
+   height: 200px;
+}
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+      /* add */
+   cursor: pointer;
+   
+}
+
+.book-now:hover {
+  background-color: #0056b3;
+  transform: scale(1.1); /* Slight bounce */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+   height: 67px;
+   width: 100px; 
+}
+
+#hero-heading-box {
+   align-self: end;
+}
+
+.hero-img-h2, .hero-img-h3 {
+   background: #fff;
+   padding: 10px 15px;
+   font-size: 14px;
+}
+
+.hero-img-h2 span,  .hero-img-h3 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+#hero-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/* 4. ---Main Hero Image Contact--- */
+
+.fas {
+   font-size: 42px;
+   color: #9a2018;
+   margin: 0 auto;
+   float: left;
+}
+
+.fa-mobile-alt {
+   margin-right: 10px;
+   margin-left: 3px;
+   margin-bottom: 20px;
+}
+
+.fa-map-marker-alt {
+   margin-right: 10px;
+}
+
+#contact {
+   font-size: 11px;
+   background-color: #efefef;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+/* 5. ---Why Choose Us--- */
+
+ #why-choose-us-nav {
+   padding-top: 20px;
+}
+
+#why-choose-us-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#why-choose-us-nav ul li {
+   margin-bottom: 15px;
+}
+
+#why-choose-us-nav ul li a {
+  color: inherit;
+  padding: 5px;
+}
+
+/* add */
+
+ 
+
+#why-choose-us-hero-con {
+  background: url(../images/why-choose-us-hero.jpg) no-repeat;
+  height: 195px;
+}
+
+#why-choose-us-heading-box {
+   align-self: end;
+}
+
+.why-choose-us-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.why-choose-us-image-con h2 {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.why-choose-us-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.why-choose-us-image-con a {
+   color: #707070;
+   font-size: 12px;
+}
+
+ #why-choose-us-bottom-nav {
+   background-color: #CF6666;
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+#why-choose-us-bottom-nav ol {
+   list-style-type: none;
+   margin: 0 0 0 20px;
+   padding: 0;
+}
+
+#why-choose-us-bottom-nav ol li {
+   display: inline;
+}
+
+#why-choose-us-bottom-nav ol li a {
+   padding: 5px;
+   color: #fff;
+}
+
+/* 6. ---About & FAQ--- */
+
+#about-hero-con {
+   background: url(../images/about-us-hero.jpg) no-repeat;
+   height: 195px;
+}
+
+#about-hero-heading-box {
+   align-self: end;
+}
+
+#about-us-text {
+   padding-bottom: 60px;
+}
+
+#about-us-text p {
+   font-size: 14px;
+   margin-bottom: 20px;
+   line-height: 22px;
+}
+
+#about-us-text-column2 {
+   font-style: italic;
+}
+
+#faq-con {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#faq-con h2 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+#faq-con h2 span {
+   color: #9a2018;
+   font-size: 16px;
+}
+
+.faq-items {
+   margin-bottom: 16px;
+}
+
+.faq-items h3 {
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+}
+
+.faq-items ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.faq-items li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+}   
+
+.faq-items a {
+   color: inherit;
+   font-size: 13px;
+}
+
+#faq-text-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+/* 7. ---Contact--- */
+
+#contact-hero-con {
+   background: url(../images/contact-hero.jpg);
+   height: 195px;
+}
+
+#contact-hero-heading-box {
+   align-self: end;
+}
+
+#contact-hero-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#contact-hero-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#contact-hero-address {
+   margin-bottom: 30px;
+}
+
+#contact-hero-address h3 {
+   margin-bottom: 25px;
+}
+
+
+/* add */
+
+/* 8. ---Footer--- */
+
+#footer-hero {
+   background-image: url(../images/footer.jpg);
+   background-repeat: no-repeat;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 40px;
+   padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+   margin-top: 30px;
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+#footer-privacy .line-seperator {
+   margin-top: 0px;
+}
+
+#footer-contact-info h3 {
+   font-size: 23px;
+}
+
+#footer-contact-info p {
+   margin-bottom: 20px;
+   line-height: 18px;
+   font-size: 11px;
+}
+
+/* hide the menu by default */
+#burger-con {
+  display: none;
+}
+
+/* show the menu when the checkbox is checked */
+#hamburger:checked + label + #burger-con {
+  display: block; 
+} 
+
+/* Hide the actual checkbox */
+#hamburger {
+  display: none;
+}
+
+/* Style the hamburger button (label) */
+label[for="hamburger"] {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+label[for="hamburger"] img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 10px;
+  left: 10px;
+}
+
+/* Hover effect for the button */
+label[for="hamburger"]:hover {
+  background-color: white
+}
+
+/* General container styling for the grid */
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff; /* Adjust background color if needed */
+  text-align: left;
+}
+
+/* Hidden class for screen readers (if necessary) */
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Icon styling */
+i {
+  color: #c62828; /* Red color for the icons */
+  font-size: 40px;
+  margin-right: 10px;
+  
+}
+
+/* Contact numbers and addresses */
+#hero-numbers,
+#hero-address {
+  
+  
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.8;
+}
+
+/* Aligning and styling sections */
+#hero-numbers {
+  display: flex;
+  align-items: center;
+}
+
+#hero-address {
+  display: flex;
+  align-items: center;
+}
+
+/* Adding hover effect for better interactivity */
+i:hover {
+  color: #ff0000;
+}
+
+.faq-section {
+  position: relative;
+  font-size: 1.25rem; /* Adjust font size if necessary */
+  font-weight: bold; /* Make the font bold */
+  padding-left: 2rem; /* Add padding to make space for the arrow */
 }
 
 .faq-section::before {
-   content: "\25B6"; /* Unicode for a right-pointing triangle */
-   position: absolute;
-   left: 0; /* Align it at the start of the text */
-   top: 50%; /* Vertically center the arrow */
-   transform: translateY(-50%);
-   font-size: 1.5rem; /* Adjust arrow size */
-   
+  content: "\25B6"; /* Unicode for a right-pointing triangle */
+  position: absolute;
+  left: 0; /* Align it at the start of the text */
+  top: 50%; /* Vertically center the arrow */
+  transform: translateY(-50%);
+  font-size: 1.5rem; /* Adjust arrow size */
+  
 }
 
 
@@ -499,111 +503,112 @@ Couples Resort Responsive Build
 
 
 .image-container { 
-   display: flex; 
-   flex-direction: column; 
-   
+  display: flex; 
+  flex-direction: column; 
+  
 } 
 
 .image-container img {
-    width: 412px; 
-    margin-bottom: 2px; /* Adjust this value to set the desired space between images */
-    box-sizing: border-box;
+   width: 412px; 
+   margin-bottom: 2px; /* Adjust this value to set the desired space between images */
+   box-sizing: border-box;
 }
 body { 
-   margin: 0; 
-   padding: 0; 
-   width: 100%; 
-   max-width: 412px; 
-   margin: auto; 
-   box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  max-width: 412px; 
+  margin: auto; 
+  box-sizing: border-box; 
 }
 
 body {
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   max-width: 412px;
-   margin: auto;
-   box-sizing: border-box;
-   
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 412px;
+  margin: auto;
+  box-sizing: border-box;
+  
 }
 
 header, footer {
-   text-align: left;
-   padding: 10px;
-   background-color: #f1f1f1;
+  text-align: left;
+  padding: 10px;
+  background-color: #f1f1f1;
+ 
 }
 
 .maroon-box {
-   background-color: maroon;
-   color: white;
-   padding: 20px;
-   margin: 10px 0;
-   border-radius: 5px;
-   text-align: left;
+  background-color: maroon;
+  color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: left;
 }
 
 .container {
-    width: 412px; 
-    border-radius: 15px; 
-    overflow: hidden; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    background-color: white; 
-    position: relative; } 
-   
-    .image-section { 
-      position: relative; 
-      width: 100%; 
-      padding-top: 75%; /* Ratio 4:3 */ 
-      overflow: hidden; } 
-      
-      .image-section img { 
-         position: absolute; 
-         top: 0; left: 0; 
-         width: 100%; 
-         height: 100%; 
-         object-fit: cover; } 
-         
-         .download-button { 
-            position: absolute; 
-            top: 10px; 
-            right: 10px;
-             width: 40px; 
-             height: 40px;
-              border-radius: 50%; 
-              background-color: rgba(255, 255, 255, 0.8); 
-              border: none; display: flex; justify-content: center; 
-              align-items: center; 
-              cursor: pointer;
-               box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); } 
-               
-               .download-button i { 
-                  color: #333; 
-                  font-size: 18px; } 
-                  
-                  .text-section { 
-                     padding: 15px; 
-                     text-align: left;
-    }
+   width: 412px; 
+   border-radius: 15px; 
+   overflow: hidden; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+   background-color: white; 
+   position: relative; } 
+  
+   .image-section { 
+     position: relative; 
+     width: 100%; 
+     padding-top: 75%; /* Ratio 4:3 */ 
+     overflow: hidden; } 
+     
+     .image-section img { 
+        position: absolute; 
+        top: 0; left: 0; 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; } 
+        
+        .download-button { 
+           position: absolute; 
+           top: 10px; 
+           right: 10px;
+            width: 40px; 
+            height: 40px;
+             border-radius: 50%; 
+             background-color: rgba(255, 255, 255, 0.8); 
+             border: none; display: flex; justify-content: center; 
+             align-items: center; 
+             cursor: pointer;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); } 
+              
+              .download-button i { 
+                 color: #333; 
+                 font-size: 18px; } 
+                 
+                 .text-section { 
+                    padding: 15px; 
+                    text-align: left;
+   }
 
-    .completed::after {
-      content: "✔"; /* Unicode for a checkmark */
-      color: green;
-      font-size: 1.2rem;
-      margin-left: 10px;
-  }
+   .completed::after {
+     content: "✔"; /* Unicode for a checkmark */
+     color: green;
+     font-size: 1.2rem;
+     margin-left: 10px;
+ }
 
-  .burger-con li a::after {
-   content: "→"; /* Unicode for arrow */
-   color: #c4a484;
-   margin-left: 5px;
-   font-size: 0.9rem;
-   transition: transform 0.3s;
+ .burger-con li a::after {
+  content: "→"; /* Unicode for arrow */
+  color: #c4a484;
+  margin-left: 5px;
+  font-size: 0.9rem;
+  transition: transform 0.3s;
 }
 
 .burger-con li a:hover::after {
-   transform: translateX(5px); /* Creates a sliding effect */
+  transform: translateX(5px); /* Creates a sliding effect */
 }
 
-  
-  
+ 
+ 
